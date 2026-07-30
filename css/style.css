@@ -1,7 +1,7 @@
 :root {
   --page-bg: #298cf0;
   --text-colour: #f4f4f4;
-  --header-height: 180px;
+  --header-height: 140px;
 }
 
 .site-header {
@@ -49,15 +49,36 @@ main {
   padding-top: var(--header-height);
 }
 
-.signage {
+.signage-1 {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 4rem;
 }
 
+.signage-2 {
+  margin-bottom: -0.4rem;
+}
+
+.youtube-demos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 4rem auto;
+}
+
+.youtube-widget-large {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+}
+
 .whisper {
   font-size: 1rem;
   opacity: 0.8;
+  margin-top: 0.5rem;
+  margin-bottom: -0.8rem;
 }
 
 .mmm-widget {
