@@ -44,3 +44,21 @@ body {
   font-size: 1.2rem;
   text-align: center;
 }
+
+.mmm-widget {
+  display: block;
+  width: 100%;
+  max-width: 646px;
+  height: 190px;
+  margin: 0 auto;
+  border: 0;
+}
+
+.pdt-widget {
+  display: block;
+  width: 100%;
+  max-width: 646px;
+  height: 190px;
+  margin: 0 auto;
+  border: 0;
+}
