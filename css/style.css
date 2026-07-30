@@ -1,6 +1,7 @@
 :root {
   --page-bg: #298cf0;
   --text-colour: #f4f4f4;
+  --header-height: 180px;
 }
 
 .site-header {
@@ -9,13 +10,13 @@
   left: 0;
 
   width: 100%;
-  height: 180px;
+  height: var(--header-height);
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.8rem;
 
   background-color: #1868c4;
 
@@ -30,7 +31,6 @@
 }
 
 body {
-  margin: 0;
   min-height: 100vh;
 
   display: flex;
@@ -45,12 +45,27 @@ body {
   text-align: center;
 }
 
+main {
+  padding-top: var(--header-height);
+}
+
+.signage {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 4rem;
+}
+
+.whisper {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
 .mmm-widget {
   display: block;
   width: 100%;
   max-width: 646px;
   height: 190px;
-  margin: 0 auto;
+  margin: 2rem auto;
   border: 0;
 }
 
@@ -59,6 +74,6 @@ body {
   width: 100%;
   max-width: 646px;
   height: 190px;
-  margin: 0 auto;
+  margin: 2rem auto;
   border: 0;
 }
