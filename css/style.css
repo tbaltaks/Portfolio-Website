@@ -1,8 +1,13 @@
 :root {
   --page-bg: #298cf0;
-  --header-bg: #125eb6b1;
+  --header-bg-opaque: #125fb6;
+  --header-bg-semiopaque: #125eb6b1;
   --text-colour: #f4f4f4;
   --header-height: 140px;
+}
+
+html {
+  overscroll-behavior-x: none;
 }
 
 .site-header {
@@ -18,7 +23,7 @@
   justify-content: center;
   align-items: center;
 
-  background-color: var(--header-bg);
+  background-color: var(--header-bg-semiopaque);
 
   transition: height 0.3s ease;
 
